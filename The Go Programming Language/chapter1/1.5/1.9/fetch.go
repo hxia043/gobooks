@@ -16,7 +16,7 @@ func main() {
 
 		fmt.Fprintf(os.Stdout, "%s: getting %s finised\n", resp.Status, arg)
 
-		file, err := os.Create("output")
+		file, err := os.Create("outputhtml")
 		if err != nil {
 			fmt.Fprint(os.Stderr, err)
 		}
