@@ -9,7 +9,7 @@ func main() {
 
 	fmt.Println(s, len(s), cap(s))
 
-	sa := append(s, 0)
+	s = append(s, 0)[:len(s)]
 
-	fmt.Println(sa, len(sa), cap(sa))
+	fmt.Println(s, len(s), cap(s))
 }
