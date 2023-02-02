@@ -8,6 +8,8 @@
     - [escape](#escape)
   - [chapter3](#chapter3)
     - [str and var](#str-and-var)
+  - [chapter 4](#chapter-4)
+    - [composite type](#composite-type)
 
 ## The Go Programming Language
 ### chapter1
@@ -20,3 +22,6 @@
 
 ### chapter3
 #### [str and var](chapter3/README.md)
+
+### chapter 4
+#### [composite type](chapter4/README.md)
